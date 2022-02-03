@@ -1,0 +1,9 @@
+The Homogeneous Ontology for Recursive Uniform Schema (HORUS) is used as an internal data format
+structure that enables the framework to reduce the permutations of transformations required by the framework.
+The use of HORUS methodology results in a hub-and-spoke data transformation approach. External data formats
+are converted to HORUS format, and then a HORUS format is transformed into any other external format. The
+basic concept is to take native raw data and then transform it first to a single format. That means that there is
+only one format for text files, one format for JSON or XML, one format for images and video. Therefore, to
+achieve any-to-any transformation coverage, the framework’s only requirements are a data-format-to-HORUS
+and HURUS-to- data-format converter.
+Sourc code is located in C:\VKHCG\05-DS\9999-Data directory
